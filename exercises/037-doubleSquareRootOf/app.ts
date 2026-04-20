@@ -1,6 +1,7 @@
 function doubleSquareRootOf(num: number): number {
   // your code here
-  return 0;
+  let raiz: number=Math.sqrt(num);
+  return raiz*2;
 }
 
 export {};
