@@ -1,6 +1,6 @@
-function getFirstElement(array: unknown[]): unknown[] {
+function getFirstElement(array: number[]): number {
   // your code here
-    return array[0];
+  return array[0];
 }
 
 export {};

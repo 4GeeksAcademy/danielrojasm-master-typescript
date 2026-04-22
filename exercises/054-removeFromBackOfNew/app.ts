@@ -1,6 +1,6 @@
-function removeFromBackOfNew(arr: unknown[], arg2: unknown): string {
+function removeFromBackOfNew(arr: number[]): number[] {
   // your code here
-  return '';
+  return arr.slice(0, -1);
 }
 
 export {};

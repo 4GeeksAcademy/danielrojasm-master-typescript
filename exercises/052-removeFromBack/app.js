@@ -1,4 +1,7 @@
-function removeFromBack(arr, arg2, arg3) {
-  // your code here
-  return '';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function removeFromBack(arr, n) {
+    // your code here
+    arr.pop();
+    return arr;
 }

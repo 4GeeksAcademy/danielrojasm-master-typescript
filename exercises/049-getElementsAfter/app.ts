@@ -1,6 +1,6 @@
-function getElementsAfter(array: unknown[], n: unknown, arg3: number): string {
+function getElementsAfter(array: number[], n: number): number[] {
   // your code here
-  return '';
+  return array.slice(n + 1);
 }
 
 export {};
